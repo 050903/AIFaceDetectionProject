@@ -111,7 +111,7 @@ class DrowsinessDetector:
             
             # Nếu không phát hiện khuôn mặt nhưng có khuôn mặt trước đó,
             # thử mở rộng vùng tìm kiếm xung quanh vị trí cũ
-            if len(faces) == 0 and hasattr(self, 'prev_face'):
+            if len(faces) == 0 and isinstance(self.prev_face, dlib.rectangle):
                 # Lấy tọa độ khuôn mặt trước đó và mở rộng vùng tìm kiếm
                 x, y, w, h = (self.prev_face.left(), self.prev_face.top(), 
                              self.prev_face.width(), self.prev_face.height())
