@@ -1,7 +1,7 @@
 # Drowsiness Detection System
-![image](https://github.com/user-attachments/assets/2c38774e-fddb-45d8-9b49-ea0c89fa5390)
-
+![image](https://github.com/user-attachments/assets/874e0394-65c3-46ff-aac2-0bc668456fd2)
 <div align="center">
+  <img src="/api/placeholder/800/200" alt="Drowsiness Detection System Banner">
   <p><strong>An intelligent system for monitoring driver drowsiness using computer vision</strong></p>
 </div>
 
@@ -24,8 +24,9 @@
 
 The Drowsiness Detection System is an application that utilizes computer vision and machine learning to detect drowsiness in drivers. The system continuously monitors for signs of drowsiness such as prolonged eye closure and yawning, alerting users to prevent accidents caused by falling asleep at the wheel.
 
+![image](https://github.com/user-attachments/assets/81d7c837-9829-41cf-a3e4-177e78f6abda)
 <div align="center">
-![image](https://github.com/user-attachments/assets/a76d79df-1cbd-4b0c-a649-ee3a8f0e7931)
+  <img src="/api/placeholder/640/360" alt="Drowsiness Detection Demo">
 </div>
 
 ## ✨ Features
@@ -86,6 +87,7 @@ python drowsiness_detector.py --shape-predictor path/to/shape_predictor_68_face_
 ## 🔧 How It Works
 
 ### System Architecture
+![image](https://github.com/user-attachments/assets/5a2b0f98-d731-46d7-a620-c85d1acd31eb)
 
 <div align="center">
   <img src="/api/placeholder/700/300" alt="System Architecture">
@@ -107,6 +109,8 @@ python drowsiness_detector.py --shape-predictor path/to/shape_predictor_68_face_
 #### Eye Aspect Ratio (EAR)
 
 EAR is calculated based on the distances between facial landmark points of the eye:
+
+![image](https://github.com/user-attachments/assets/01e9b6c2-1e7a-4a30-84c3-0f4d83538005)
 
 <div align="center">
   <img src="/api/placeholder/400/150" alt="EAR Formula">
@@ -198,6 +202,9 @@ Contributions to the project are welcome! If you'd like to contribute:
 - [ ] Improve face tracking in low light conditions
 - [ ] Develop a graphical user interface
 - [ ] Integrate mobile device notifications
+
+## Simulation
+![image](https://github.com/user-attachments/assets/d0ae4d72-fb6a-4770-b81d-7f4d26c59753)
 
 ## 📄 License
 
