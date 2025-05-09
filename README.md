@@ -25,7 +25,7 @@
 The Drowsiness Detection System is an application that utilizes computer vision and machine learning to detect drowsiness in drivers. The system continuously monitors for signs of drowsiness such as prolonged eye closure and yawning, alerting users to prevent accidents caused by falling asleep at the wheel.
 
 <div align="center">
-  <img src="/api/placeholder/640/360" alt="Drowsiness Detection Demo">
+![image](https://github.com/user-attachments/assets/a76d79df-1cbd-4b0c-a649-ee3a8f0e7931)
 </div>
 
 ## ✨ Features
