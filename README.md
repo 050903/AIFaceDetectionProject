@@ -1,7 +1,7 @@
 # Drowsiness Detection System
 
 <div align="center">
-  <img src="/api/placeholder/800/200" alt="Drowsiness Detection System Banner">
+![image](https://github.com/user-attachments/assets/af6d0ffd-3459-40b2-959c-8238487d34d5)
   <p><strong>An intelligent system for monitoring driver drowsiness using computer vision</strong></p>
 </div>
 
