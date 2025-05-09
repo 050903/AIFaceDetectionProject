@@ -1,4 +1,5 @@
 # Drowsiness Detection System
+![image](https://github.com/user-attachments/assets/2c38774e-fddb-45d8-9b49-ea0c89fa5390)
 
 <div align="center">
   <p><strong>An intelligent system for monitoring driver drowsiness using computer vision</strong></p>
