@@ -12,8 +12,10 @@ A Python application leveraging OpenCV and Dlib to monitor a user's eyes and mou
 
 ## 🎞️ Live Demo / How it Looks
 
-![Demo GIF](https://user-images.githubusercontent.com/your-github-id/your-repo-id/path-to-your-demo.gif)
-*<p align="center">Main interface of the system in action (replace with your actual GIF/image)</p>*
+![image](https://github.com/user-attachments/assets/7483ab68-3757-4b58-8fee-b946f25daec7)
+![image](https://github.com/user-attachments/assets/f97d69e4-58da-41de-bc6d-03d59e960c9d)
+![image](https://github.com/user-attachments/assets/c3de3de2-a39d-48ca-8fc8-92d78799e2b2)
+![image](https://github.com/user-attachments/assets/3cc87102-e383-4252-9137-6fdf810ac3e3)
 
 ---
 
