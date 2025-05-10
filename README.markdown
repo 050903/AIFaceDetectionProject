@@ -12,12 +12,17 @@ A Python application leveraging OpenCV and Dlib for real-time monitoring of a us
 
 ## 🎞️ Live Demo
 
+Caption: Shows the initial interface with facial landmarks displayed, tracking the user's face in real-time.
 ![Demo 1](https://github.com/user-attachments/assets/7483ab68-3757-4b58-8fee-b946f25daec7)
-![Demo 2](https://github.com/user-attachments/assets/f97d69e4-58da-41de-bc6d-03d59e960c9d)
-![Demo 3](https://github.com/user-attachments/assets/c3de3de2-a39d-48ca-8fc8-92d78799e2b2)
-![Demo 4](https://github.com/user-attachments/assets/3cc87102-e383-4252-9137-6fdf810ac3e3)
 
-*Note:* Ensure these demo images or a GIF are uploaded to your repository or an image hosting service and update the URLs accordingly.
+Caption: Demonstrates eye closure detection with a progress bar indicating a drowsiness alert nearing activation.
+![Demo 2](https://github.com/user-attachments/assets/f97d69e4-58da-41de-bc6d-03d59e960c9d)
+
+Caption: Highlights yawn detection with the Mouth Ratio (MR) value displayed and a yawn counter incremented.
+![Demo 3](https://github.com/user-attachments/assets/c3de3de2-a39d-48ca-8fc8-92d78799e2b2)
+
+Caption: Illustrates a triggered drowsiness alert with a visual warning and optional audible alarm in action.
+![Demo 4](https://github.com/user-attachments/assets/3cc87102-e383-4252-9137-6fdf810ac3e3)
 
 ---
 
