@@ -1,4 +1,4 @@
-# 😴 Real-time Drowsiness Detection System
+# 😴 Real-time AI Face Detection Project 
 
 ![Python](https://img.shields.io/badge/Python-3.7+-blue?logo=python&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green?logo=opencv&logoColor=white)
