@@ -1,0 +1,405 @@
+
+
+==================================================
+
+
+==================================================
+Phiên phát hiện buồn ngủ bắt đầu lúc 2025-05-10 19:33:09.489470
+Ngưỡng EAR: 0.23, Khung hình: 25, Ngưỡng ngáp: 0.6, PERCLOS window (T1): 60.0s
+==================================================
+
+[2025-05-10 19:33:39] Phát hiện ngáp lần thứ 1 (R_M > 0.60)
+[2025-05-10 19:33:39] Phát hiện ngáp lần thứ 2 (R_M > 0.60)
+[2025-05-10 19:33:43] Phát hiện ngáp lần thứ 3 (R_M > 0.60)
+[2025-05-10 19:33:43] Phát hiện ngáp lần thứ 4 (R_M > 0.60)
+[2025-05-10 19:33:44] Phát hiện ngáp lần thứ 5 (R_M > 0.60)
+[2025-05-10 19:33:44] Phát hiện ngáp lần thứ 6 (R_M > 0.60)
+[2025-05-10 19:33:44] Phát hiện ngáp lần thứ 7 (R_M > 0.60)
+[2025-05-10 19:33:44] Phát hiện ngáp lần thứ 8 (R_M > 0.60)
+[2025-05-10 19:33:45] Phát hiện ngáp lần thứ 9 (R_M > 0.60)
+[2025-05-10 19:33:45] Phát hiện ngáp lần thứ 10 (R_M > 0.60)
+[2025-05-10 19:34:33] Phát hiện ngáp lần thứ 11 (R_M > 0.60)
+[2025-05-10 19:34:37] Phát hiện ngáp lần thứ 12 (R_M > 0.60)
+[2025-05-10 19:34:38] Phát hiện ngáp lần thứ 13 (R_M > 0.60)
+[2025-05-10 19:34:38] Phát hiện ngáp lần thứ 14 (R_M > 0.60)
+[2025-05-10 19:34:41] Phát hiện ngáp lần thứ 15 (R_M > 0.60)
+[2025-05-10 19:34:42] Phát hiện ngáp lần thứ 16 (R_M > 0.60)
+[2025-05-10 19:34:42] Phát hiện ngáp lần thứ 17 (R_M > 0.60)
+[2025-05-10 19:34:42] Phát hiện ngáp lần thứ 18 (R_M > 0.60)
+[2025-05-10 19:34:42] Phát hiện ngáp lần thứ 19 (R_M > 0.60)
+[2025-05-10 19:34:43] Phát hiện ngáp lần thứ 20 (R_M > 0.60)
+
+
+==================================================
+Phiên phát hiện buồn ngủ bắt đầu lúc 2025-05-10 19:38:29.295093
+Ngưỡng EAR: 0.23, Khung hình: 25, Ngưỡng ngáp: 0.6, PERCLOS window (T1): 60.0s
+==================================================
+
+[2025-05-10 19:38:44] Phát hiện ngáp lần thứ 1 (R_M > 0.60)
+[2025-05-10 19:38:44] Phát hiện ngáp lần thứ 2 (R_M > 0.60)
+[2025-05-10 19:38:44] Phát hiện ngáp lần thứ 3 (R_M > 0.60)
+[2025-05-10 19:38:44] Phát hiện ngáp lần thứ 4 (R_M > 0.60)
+[2025-05-10 19:38:48] Phát hiện ngáp lần thứ 5 (R_M > 0.60)
+[2025-05-10 19:38:49] Phát hiện ngáp lần thứ 6 (R_M > 0.60)
+[2025-05-10 19:38:51] Phát hiện ngáp lần thứ 7 (R_M > 0.60)
+[2025-05-10 19:38:52] Phát hiện ngáp lần thứ 8 (R_M > 0.60)
+[2025-05-10 19:38:53] Phát hiện ngáp lần thứ 9 (R_M > 0.60)
+[2025-05-10 19:38:53] Phát hiện ngáp lần thứ 10 (R_M > 0.60)
+[2025-05-10 19:38:53] Phát hiện ngáp lần thứ 11 (R_M > 0.60)
+[2025-05-10 19:38:54] Phát hiện ngáp lần thứ 12 (R_M > 0.60)
+[2025-05-10 19:38:54] Phát hiện ngáp lần thứ 13 (R_M > 0.60)
+[2025-05-10 19:38:54] Phát hiện ngáp lần thứ 14 (R_M > 0.60)
+[2025-05-10 19:38:55] Phát hiện ngáp lần thứ 15 (R_M > 0.60)
+[2025-05-10 19:38:55] Phát hiện ngáp lần thứ 16 (R_M > 0.60)
+[2025-05-10 19:38:56] Phát hiện ngáp lần thứ 17 (R_M > 0.60)
+
+
+==================================================
+Drowsiness detection session started at 2025-05-10 19:49:46.622675
+EAR Threshold: 0.23, Consecutive Frames: 25, Yawn Threshold: 0.6, PERCLOS Window (T1): 60.0s
+==================================================
+
+[2025-05-10 19:50:04] Yawn detected (Count: 1, MAR > 0.60)
+[2025-05-10 19:50:04] Yawn detected (Count: 2, MAR > 0.60)
+[2025-05-10 19:50:05] Yawn detected (Count: 3, MAR > 0.60)
+[2025-05-10 19:50:05] Yawn detected (Count: 4, MAR > 0.60)
+[2025-05-10 19:50:18] Yawn detected (Count: 5, MAR > 0.60)
+[2025-05-10 19:50:21] Yawn detected (Count: 6, MAR > 0.60)
+[2025-05-10 19:50:22] Yawn detected (Count: 7, MAR > 0.60)
+[2025-05-10 19:50:22] Yawn detected (Count: 8, MAR > 0.60)
+[2025-05-10 19:50:22] Yawn detected (Count: 9, MAR > 0.60)
+
+
+==================================================
+Drowsiness detection session started at 2025-05-10 19:53:56.845490
+EAR Threshold: 0.23, Consecutive Frames: 25, Yawn Threshold: 0.6, PERCLOS Window (T1): 60.0s
+==================================================
+
+[2025-05-10 19:57:15] Yawn detected (Count: 1, MAR > 0.60)
+[2025-05-10 19:57:15] Yawn detected (Count: 2, MAR > 0.60)
+[2025-05-10 19:57:15] Yawn detected (Count: 3, MAR > 0.60)
+[2025-05-10 19:57:15] Yawn detected (Count: 4, MAR > 0.60)
+[2025-05-10 19:57:16] Yawn detected (Count: 5, MAR > 0.60)
+[2025-05-10 19:57:16] Yawn detected (Count: 6, MAR > 0.60)
+[2025-05-10 19:57:16] Yawn detected (Count: 7, MAR > 0.60)
+[2025-05-10 19:57:16] Yawn detected (Count: 8, MAR > 0.60)
+[2025-05-10 19:57:17] Yawn detected (Count: 9, MAR > 0.60)
+[2025-05-10 19:57:17] Yawn detected (Count: 10, MAR > 0.60)
+[2025-05-10 19:57:17] Yawn detected (Count: 11, MAR > 0.60)
+[2025-05-10 19:57:29] Yawn detected (Count: 12, MAR > 0.60)
+[2025-05-10 19:57:29] Yawn detected (Count: 13, MAR > 0.60)
+[2025-05-10 19:57:29] Yawn detected (Count: 14, MAR > 0.60)
+[2025-05-10 19:57:29] Yawn detected (Count: 15, MAR > 0.60)
+[2025-05-10 19:57:30] Yawn detected (Count: 16, MAR > 0.60)
+[2025-05-10 19:57:31] Yawn detected (Count: 17, MAR > 0.60)
+[2025-05-10 19:57:32] Yawn detected (Count: 18, MAR > 0.60)
+[2025-05-10 19:57:32] Yawn detected (Count: 19, MAR > 0.60)
+[2025-05-10 19:57:33] Yawn detected (Count: 20, MAR > 0.60)
+[2025-05-10 19:57:33] Yawn detected (Count: 21, MAR > 0.60)
+[2025-05-10 19:57:33] Yawn detected (Count: 22, MAR > 0.60)
+[2025-05-10 19:57:34] Yawn detected (Count: 23, MAR > 0.60)
+[2025-05-10 19:57:34] Yawn detected (Count: 24, MAR > 0.60)
+[2025-05-10 19:57:35] Yawn detected (Count: 25, MAR > 0.60)
+[2025-05-10 19:57:35] Yawn detected (Count: 26, MAR > 0.60)
+[2025-05-10 19:57:37] Yawn detected (Count: 27, MAR > 0.60)
+[2025-05-10 19:57:37] Yawn detected (Count: 28, MAR > 0.60)
+[2025-05-10 19:57:38] Yawn detected (Count: 29, MAR > 0.60)
+[2025-05-10 19:57:40] Yawn detected (Count: 30, MAR > 0.60)
+[2025-05-10 19:57:41] Yawn detected (Count: 31, MAR > 0.60)
+[2025-05-10 19:57:41] Yawn detected (Count: 32, MAR > 0.60)
+[2025-05-10 19:57:41] Yawn detected (Count: 33, MAR > 0.60)
+[2025-05-10 19:57:42] Yawn detected (Count: 34, MAR > 0.60)
+[2025-05-10 19:57:42] Yawn detected (Count: 35, MAR > 0.60)
+[2025-05-10 19:57:44] Yawn detected (Count: 36, MAR > 0.60)
+[2025-05-10 19:57:45] Yawn detected (Count: 37, MAR > 0.60)
+
+
+==================================================
+Drowsiness detection session started at 2025-05-10 20:03:01.821683
+EAR Threshold: 0.23, Consecutive Frames: 25, Yawn Threshold: 0.6, PERCLOS Window (T1): 60.0s
+==================================================
+
+[2025-05-10 20:03:05] Yawn detected (Count: 1, MAR > 0.60)
+[2025-05-10 20:03:06] Yawn detected (Count: 2, MAR > 0.60)
+[2025-05-10 20:03:06] Yawn detected (Count: 3, MAR > 0.60)
+[2025-05-10 20:03:19] ALERT: Drowsiness detected (EAR) - (Sound alarm disabled)
+
+
+==================================================
+Drowsiness detection session started at 2025-05-10 20:06:38.824336
+EAR Threshold: 0.23, Consecutive Frames: 25, Yawn Threshold: 0.6, PERCLOS Window (T1): 60.0s
+==================================================
+
+[2025-05-10 20:06:47] Yawn detected (Count: 1, MAR > 0.60)
+[2025-05-10 20:06:47] Yawn detected (Count: 2, MAR > 0.60)
+[2025-05-10 20:06:49] Yawn detected (Count: 3, MAR > 0.60)
+[2025-05-10 20:06:51] Yawn detected (Count: 4, MAR > 0.60)
+[2025-05-10 20:06:56] ALERT: Drowsiness detected (EAR) - (Sound alarm disabled)
+[2025-05-10 20:07:04] ALERT: Drowsiness detected (EAR) - (Sound alarm disabled)
+
+
+==================================================
+Drowsiness detection session started at 2025-05-10 20:10:50.397610
+EAR Thresh: 0.23, EAR Frames: 25, Yawn Thresh: 0.6, PERCLOS Win: 60.0s
+Initial Sound Alarm State (from --alarm flag): OFF
+==================================================
+
+[2025-05-10 20:10:54] Yawn detected (Total: 1, MAR: 0.70)
+[2025-05-10 20:10:56] Runtime Sound/Flash Alarm Toggled: ON
+[2025-05-10 20:10:58] Yawn detected (Total: 2, MAR: 0.73)
+[2025-05-10 20:10:58] ALERT: Yawn detected. Runtime alarm active.
+[2025-05-10 20:10:59] Yawn detected (Total: 3, MAR: 0.68)
+[2025-05-10 20:10:59] ALERT: Yawn detected. Runtime alarm active.
+[2025-05-10 20:10:59] Yawn detected (Total: 4, MAR: 0.77)
+[2025-05-10 20:10:59] ALERT: Yawn detected. Runtime alarm active.
+[2025-05-10 20:11:01] Yawn detected (Total: 5, MAR: 0.60)
+[2025-05-10 20:11:01] ALERT: Yawn detected. Runtime alarm active.
+[2025-05-10 20:11:01] Yawn detected (Total: 6, MAR: 0.65)
+[2025-05-10 20:11:01] ALERT: Yawn detected. Runtime alarm active.
+[2025-05-10 20:11:08] Yawn detected (Total: 7, MAR: 0.73)
+[2025-05-10 20:11:08] ALERT: Yawn detected. Runtime alarm active.
+[2025-05-10 20:11:09] Yawn detected (Total: 8, MAR: 0.67)
+[2025-05-10 20:11:09] ALERT: Yawn detected. Runtime alarm active.
+[2025-05-10 20:11:31] ALERT: Drowsiness detected (EAR). Runtime alarm active.
+[2025-05-10 20:11:54] ALERT: Drowsiness detected (EAR). Runtime alarm active.
+[2025-05-10 20:11:57] ALERT: Drowsiness detected (EAR). Runtime alarm active.
+[2025-05-10 20:11:58] ALERT: Drowsiness detected (EAR). Runtime alarm active.
+[2025-05-10 20:12:24] Counters and states reset.
+[2025-05-10 20:12:33] Runtime Sound/Flash Alarm Toggled: OFF
+[2025-05-10 20:12:34] Runtime Sound/Flash Alarm Toggled: ON
+[2025-05-10 20:12:34] Runtime Sound/Flash Alarm Toggled: OFF
+[2025-05-10 20:12:34] Runtime Sound/Flash Alarm Toggled: ON
+[2025-05-10 20:12:34] Runtime Sound/Flash Alarm Toggled: OFF
+[2025-05-10 20:12:35] Runtime Sound/Flash Alarm Toggled: ON
+
+
+==================================================
+Drowsiness detection session started at 2025-05-10 20:12:55.260511
+EAR Thresh: 0.23, EAR Frames: 25, Yawn Thresh: 0.6, PERCLOS Win: 60.0s
+Initial Sound Alarm State (from --alarm flag): OFF
+==================================================
+
+[2025-05-10 20:14:42] Runtime Sound/Flash Alarm Toggled: ON
+[2025-05-10 20:14:43] Runtime Sound/Flash Alarm Toggled: OFF
+[2025-05-10 20:14:44] Runtime Sound/Flash Alarm Toggled: ON
+[2025-05-10 20:14:44] Runtime Sound/Flash Alarm Toggled: OFF
+[2025-05-10 20:15:14] Yawn detected (Total: 1, MAR: 0.64)
+[2025-05-10 20:15:14] Yawn detected (Total: 2, MAR: 0.61)
+[2025-05-10 20:15:18] Yawn detected (Total: 3, MAR: 0.62)
+[2025-05-10 20:15:19] Yawn detected (Total: 4, MAR: 0.60)
+[2025-05-10 20:15:19] Yawn detected (Total: 5, MAR: 0.61)
+[2025-05-10 20:15:20] Yawn detected (Total: 6, MAR: 0.62)
+[2025-05-10 20:15:20] Yawn detected (Total: 7, MAR: 0.63)
+[2025-05-10 20:15:20] Yawn detected (Total: 8, MAR: 0.67)
+[2025-05-10 20:15:20] Yawn detected (Total: 9, MAR: 0.67)
+[2025-05-10 20:15:25] Yawn detected (Total: 10, MAR: 0.64)
+[2025-05-10 20:15:25] Yawn detected (Total: 11, MAR: 0.61)
+[2025-05-10 20:15:25] Yawn detected (Total: 12, MAR: 0.61)
+[2025-05-10 20:15:26] Yawn detected (Total: 13, MAR: 0.61)
+[2025-05-10 20:15:26] Yawn detected (Total: 14, MAR: 0.60)
+[2025-05-10 20:15:30] Yawn detected (Total: 15, MAR: 0.61)
+[2025-05-10 20:15:30] Yawn detected (Total: 16, MAR: 0.65)
+[2025-05-10 20:15:32] Yawn detected (Total: 17, MAR: 0.65)
+[2025-05-10 20:15:32] Yawn detected (Total: 18, MAR: 0.63)
+[2025-05-10 20:15:32] Yawn detected (Total: 19, MAR: 0.65)
+[2025-05-10 20:15:32] Yawn detected (Total: 20, MAR: 0.65)
+[2025-05-10 20:15:32] Yawn detected (Total: 21, MAR: 0.63)
+[2025-05-10 20:15:33] Yawn detected (Total: 22, MAR: 0.69)
+[2025-05-10 20:15:33] Yawn detected (Total: 23, MAR: 0.69)
+[2025-05-10 20:15:34] Yawn detected (Total: 24, MAR: 0.63)
+[2025-05-10 20:15:34] Yawn detected (Total: 25, MAR: 0.64)
+[2025-05-10 20:15:35] Yawn detected (Total: 26, MAR: 0.61)
+[2025-05-10 20:15:35] Yawn detected (Total: 27, MAR: 0.60)
+[2025-05-10 20:15:35] Yawn detected (Total: 28, MAR: 0.61)
+[2025-05-10 20:15:37] Yawn detected (Total: 29, MAR: 0.61)
+[2025-05-10 20:15:37] Yawn detected (Total: 30, MAR: 0.63)
+[2025-05-10 20:15:38] Yawn detected (Total: 31, MAR: 0.61)
+[2025-05-10 20:15:38] Yawn detected (Total: 32, MAR: 0.60)
+[2025-05-10 20:15:38] Yawn detected (Total: 33, MAR: 0.64)
+[2025-05-10 20:15:40] Yawn detected (Total: 34, MAR: 0.63)
+[2025-05-10 20:15:40] Yawn detected (Total: 35, MAR: 0.62)
+[2025-05-10 20:15:40] Yawn detected (Total: 36, MAR: 0.60)
+[2025-05-10 20:15:40] Yawn detected (Total: 37, MAR: 0.60)
+[2025-05-10 20:15:41] Yawn detected (Total: 38, MAR: 0.63)
+[2025-05-10 20:15:41] Yawn detected (Total: 39, MAR: 0.62)
+[2025-05-10 20:15:41] Yawn detected (Total: 40, MAR: 0.63)
+[2025-05-10 20:15:49] Yawn detected (Total: 41, MAR: 0.60)
+[2025-05-10 20:15:51] Yawn detected (Total: 42, MAR: 0.61)
+[2025-05-10 20:15:57] Yawn detected (Total: 43, MAR: 0.69)
+[2025-05-10 20:15:58] Yawn detected (Total: 44, MAR: 0.63)
+[2025-05-10 20:15:58] Yawn detected (Total: 45, MAR: 0.61)
+[2025-05-10 20:15:59] Yawn detected (Total: 46, MAR: 0.63)
+[2025-05-10 20:15:59] Yawn detected (Total: 47, MAR: 0.67)
+[2025-05-10 20:15:59] Yawn detected (Total: 48, MAR: 0.73)
+[2025-05-10 20:15:59] Yawn detected (Total: 49, MAR: 0.70)
+[2025-05-10 20:16:00] Yawn detected (Total: 50, MAR: 0.63)
+[2025-05-10 20:16:00] Yawn detected (Total: 51, MAR: 0.68)
+[2025-05-10 20:16:00] Yawn detected (Total: 52, MAR: 0.60)
+[2025-05-10 20:16:01] Yawn detected (Total: 53, MAR: 0.67)
+[2025-05-10 20:16:01] Yawn detected (Total: 54, MAR: 0.68)
+[2025-05-10 20:16:01] Yawn detected (Total: 55, MAR: 0.65)
+[2025-05-10 20:16:02] Yawn detected (Total: 56, MAR: 0.64)
+[2025-05-10 20:16:03] Yawn detected (Total: 57, MAR: 0.68)
+[2025-05-10 20:16:05] Yawn detected (Total: 58, MAR: 0.66)
+[2025-05-10 20:16:05] Yawn detected (Total: 59, MAR: 0.66)
+[2025-05-10 20:16:05] Yawn detected (Total: 60, MAR: 0.63)
+[2025-05-10 20:16:05] Yawn detected (Total: 61, MAR: 0.63)
+[2025-05-10 20:16:06] Yawn detected (Total: 62, MAR: 0.60)
+[2025-05-10 20:16:06] Yawn detected (Total: 63, MAR: 0.64)
+[2025-05-10 20:16:06] Yawn detected (Total: 64, MAR: 0.64)
+[2025-05-10 20:16:07] Yawn detected (Total: 65, MAR: 0.63)
+[2025-05-10 20:16:07] Yawn detected (Total: 66, MAR: 0.63)
+[2025-05-10 20:16:07] Yawn detected (Total: 67, MAR: 0.67)
+[2025-05-10 20:16:07] Yawn detected (Total: 68, MAR: 0.66)
+[2025-05-10 20:16:07] Yawn detected (Total: 69, MAR: 0.69)
+[2025-05-10 20:16:08] Yawn detected (Total: 70, MAR: 0.66)
+[2025-05-10 20:16:08] Yawn detected (Total: 71, MAR: 0.61)
+[2025-05-10 20:16:09] Yawn detected (Total: 72, MAR: 0.64)
+[2025-05-10 20:16:09] Yawn detected (Total: 73, MAR: 0.62)
+[2025-05-10 20:16:10] Yawn detected (Total: 74, MAR: 0.67)
+[2025-05-10 20:16:10] Yawn detected (Total: 75, MAR: 0.64)
+[2025-05-10 20:16:10] Yawn detected (Total: 76, MAR: 0.62)
+[2025-05-10 20:16:11] Yawn detected (Total: 77, MAR: 0.61)
+[2025-05-10 20:16:11] Yawn detected (Total: 78, MAR: 0.71)
+[2025-05-10 20:16:11] Yawn detected (Total: 79, MAR: 0.63)
+[2025-05-10 20:16:12] Yawn detected (Total: 80, MAR: 0.66)
+[2025-05-10 20:16:12] Yawn detected (Total: 81, MAR: 0.67)
+[2025-05-10 20:16:12] Yawn detected (Total: 82, MAR: 0.60)
+[2025-05-10 20:16:12] Yawn detected (Total: 83, MAR: 0.71)
+[2025-05-10 20:16:12] Yawn detected (Total: 84, MAR: 0.61)
+[2025-05-10 20:16:14] Yawn detected (Total: 85, MAR: 0.66)
+[2025-05-10 20:16:14] Yawn detected (Total: 86, MAR: 0.64)
+
+
+==================================================
+Drowsiness detection session started at 2025-05-10 20:26:09.469649
+EAR Thresh: 0.23, EAR Frames: 25, Yawn Thresh: 0.6, PERCLOS Win: 60.0s
+Initial Sound Alarm State (from --alarm flag): OFF
+==================================================
+
+[2025-05-10 20:26:16] Yawn detected (Total: 1, MAR: 0.66)
+[2025-05-10 20:26:17] Yawn detected (Total: 2, MAR: 0.60)
+[2025-05-10 20:26:17] Yawn detected (Total: 3, MAR: 0.63)
+[2025-05-10 20:26:17] Yawn detected (Total: 4, MAR: 0.61)
+[2025-05-10 20:26:19] Runtime Sound/Flash Alarm Toggled: ON
+[2025-05-10 20:26:21] Yawn detected (Total: 5, MAR: 0.64)
+[2025-05-10 20:26:21] ALERT: Yawn detected. Runtime alarm active.
+[2025-05-10 20:26:21] Yawn detected (Total: 6, MAR: 0.60)
+[2025-05-10 20:26:21] ALERT: Yawn detected. Runtime alarm active.
+[2025-05-10 20:26:30] Yawn detected (Total: 7, MAR: 0.62)
+[2025-05-10 20:26:30] ALERT: Yawn detected. Runtime alarm active.
+[2025-05-10 20:31:08] Counters and states reset.
+
+
+==================================================
+Drowsiness detection session started at 2025-05-10 20:31:54.966662
+EAR Thresh: 0.23, EAR Frames: 25, Yawn Thresh: 0.6, PERCLOS Win: 60.0s
+Initial Sound Alarm State (from --alarm flag): OFF
+==================================================
+
+[2025-05-10 20:31:55] ERROR: Cannot read frame from camera.
+[2025-05-10 20:31:55] Program terminated.
+
+
+==================================================
+Drowsiness detection session started at 2025-05-10 20:32:11.376202
+EAR Thresh: 0.23, EAR Frames: 25, Yawn Thresh: 0.6, PERCLOS Win: 60.0s
+Initial Sound Alarm State (from --alarm flag): OFF
+==================================================
+
+[2025-05-10 20:32:11] ERROR: Cannot read frame from camera.
+[2025-05-10 20:32:11] Program terminated.
+
+
+==================================================
+Drowsiness detection session started at 2025-05-10 20:32:53.894381
+EAR Thresh: 0.23, EAR Frames: 25, Yawn Thresh: 0.6, PERCLOS Win: 60.0s
+Initial Sound Alarm State (from --alarm flag): OFF
+==================================================
+
+[2025-05-10 20:32:53] ERROR: Cannot read frame from camera.
+[2025-05-10 20:32:53] Program terminated.
+
+
+==================================================
+Drowsiness detection session started at 2025-05-10 20:34:04.561626
+EAR Thresh: 0.23, EAR Frames: 25, Yawn Thresh: 0.6, PERCLOS Win: 60.0s
+Initial Sound Alarm State (from --alarm flag): OFF
+==================================================
+
+[2025-05-10 20:34:58] Yawn detected (Total: 1, MAR: 0.62)
+[2025-05-10 20:34:59] Yawn detected (Total: 2, MAR: 0.67)
+[2025-05-10 20:35:01] Yawn detected (Total: 3, MAR: 0.60)
+[2025-05-10 20:35:03] Yawn detected (Total: 4, MAR: 0.62)
+[2025-05-10 20:35:48] Yawn detected (Total: 5, MAR: 0.70)
+[2025-05-10 20:36:08] Yawn detected (Total: 6, MAR: 0.73)
+[2025-05-10 20:42:00] Yawn detected (Total: 7, MAR: 0.62)
+[2025-05-10 20:42:00] Yawn detected (Total: 8, MAR: 0.63)
+[2025-05-10 20:42:01] Yawn detected (Total: 9, MAR: 0.66)
+[2025-05-10 20:42:08] Yawn detected (Total: 10, MAR: 0.67)
+[2025-05-10 20:42:08] Yawn detected (Total: 11, MAR: 0.71)
+[2025-05-10 20:42:09] Yawn detected (Total: 12, MAR: 0.65)
+[2025-05-10 20:42:10] Yawn detected (Total: 13, MAR: 0.66)
+[2025-05-10 20:42:10] Yawn detected (Total: 14, MAR: 0.61)
+[2025-05-10 20:42:10] Yawn detected (Total: 15, MAR: 0.60)
+[2025-05-10 20:42:12] Yawn detected (Total: 16, MAR: 0.65)
+[2025-05-10 20:42:12] Yawn detected (Total: 17, MAR: 0.63)
+[2025-05-10 20:42:12] Yawn detected (Total: 18, MAR: 0.60)
+
+
+==================================================
+Session started: 2025-05-10 20:46:59.239373
+EAR Th:0.23, EAR Fr:25, Yawn Th:0.6, PERCLOS Win:60.0s
+Initial Runtime Alarm (sound/event flash): OFF
+==================================================
+
+[2025-05-10 20:47:07] INFO: Drowsiness detected (EAR). Runtime alarm OFF.
+
+
+==================================================
+Session started: 2025-05-10 20:49:02.295709
+EAR Th:0.23, EAR Fr:25, Yawn Th:0.6, PERCLOS Win:60.0s
+Initial Runtime Alarm (sound/event flash): OFF
+==================================================
+
+[2025-05-10 20:49:28] Yawn detected (Total: 1, MAR: 0.71)
+[2025-05-10 20:49:29] Yawn detected (Total: 2, MAR: 0.63)
+[2025-05-10 20:49:32] Yawn detected (Total: 3, MAR: 0.78)
+[2025-05-10 20:49:34] Yawn detected (Total: 4, MAR: 0.61)
+[2025-05-10 20:49:35] Yawn detected (Total: 5, MAR: 0.61)
+[2025-05-10 20:49:36] Yawn detected (Total: 6, MAR: 0.64)
+[2025-05-10 20:49:38] Yawn detected (Total: 7, MAR: 0.63)
+[2025-05-10 20:49:38] Yawn detected (Total: 8, MAR: 0.63)
+[2025-05-10 20:49:51] Yawn detected (Total: 9, MAR: 0.68)
+[2025-05-10 20:49:51] Yawn detected (Total: 10, MAR: 0.63)
+[2025-05-10 20:49:53] Yawn detected (Total: 11, MAR: 0.61)
+[2025-05-10 20:50:10] INFO: Drowsiness detected (EAR). Runtime alarm OFF.
+[2025-05-10 20:50:25] Yawn detected (Total: 12, MAR: 0.66)
+[2025-05-10 20:50:28] INFO: Drowsiness detected (EAR). Runtime alarm OFF.
+[2025-05-10 20:50:39] INFO: Drowsiness detected (EAR). Runtime alarm OFF.
+[2025-05-10 20:51:01] Yawn detected (Total: 13, MAR: 0.62)
+[2025-05-10 20:51:06] INFO: Drowsiness detected (EAR). Runtime alarm OFF.
+[2025-05-10 20:51:13] Runtime Sound/Event Flash Alarm Toggled: ON
+[2025-05-10 20:51:16] Yawn detected (Total: 14, MAR: 0.65)
+[2025-05-10 20:51:16] ALERT: Yawn detected. Runtime alarm ON.
+[2025-05-10 20:51:18] Yawn detected (Total: 15, MAR: 0.63)
+[2025-05-10 20:51:18] ALERT: Yawn detected. Runtime alarm ON.
+[2025-05-10 20:51:19] Yawn detected (Total: 16, MAR: 0.78)
+[2025-05-10 20:51:19] ALERT: Yawn detected. Runtime alarm ON.
+[2025-05-10 20:51:21] Yawn detected (Total: 17, MAR: 0.69)
+[2025-05-10 20:51:21] ALERT: Yawn detected. Runtime alarm ON.
+[2025-05-10 20:51:21] Yawn detected (Total: 18, MAR: 0.60)
+[2025-05-10 20:51:21] ALERT: Yawn detected. Runtime alarm ON.
+[2025-05-10 20:51:21] Yawn detected (Total: 19, MAR: 0.61)
+[2025-05-10 20:51:21] ALERT: Yawn detected. Runtime alarm ON.
+[2025-05-10 20:51:26] Yawn detected (Total: 20, MAR: 0.77)
+[2025-05-10 20:51:26] ALERT: Yawn detected. Runtime alarm ON.
+[2025-05-10 20:51:30] ALERT: Drowsiness detected (EAR). Runtime alarm ON.
+[2025-05-10 20:51:35] ALERT: Drowsiness detected (EAR). Runtime alarm ON.
+[2025-05-10 20:51:49] ALERT: Drowsiness detected (EAR). Runtime alarm ON.
+[2025-05-10 20:51:56] Yawn detected (Total: 21, MAR: 0.70)
+[2025-05-10 20:51:56] ALERT: Yawn detected. Runtime alarm ON.
+[2025-05-10 20:51:56] Yawn detected (Total: 22, MAR: 0.81)
+[2025-05-10 20:51:56] ALERT: Yawn detected. Runtime alarm ON.
+[2025-05-10 20:52:02] ALERT: Drowsiness detected (EAR). Runtime alarm ON.
+[2025-05-10 20:52:08] Runtime Sound/Event Flash Alarm Toggled: OFF
