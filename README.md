@@ -1,165 +1,252 @@
-# 😴 Real-time AI Face Detection Project 
+😴 Real-time AI Face Detection Project
 
-![Python](https://img.shields.io/badge/Python-3.7+-blue?logo=python&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green?logo=opencv&logoColor=white)
-![Dlib](https.img.shields.io/badge/Dlib-19.x-orange)
-![License](https.img.shields.io/badge/License-MIT-brightgreen)
-[![Stars](https://img.shields.io/github/stars/your-username/your-repo-name?style=social)](https://github.com/your-username/your-repo-name/stargazers) <!-- Replace your-username/your-repo-name -->
+A Python application leveraging OpenCV and Dlib for real-time monitoring of a user's eyes and mouth to detect signs of drowsiness, such as prolonged eye closure or frequent yawning. The system issues visual and audible alerts, making it ideal for applications like driver or machine operator fatigue monitoring.
 
-A Python application leveraging OpenCV and Dlib to monitor a user's eyes and mouth in real-time. It detects signs of drowsiness, such as prolonged eye closure or frequent yawning, and issues alerts. This system is particularly useful for warning drivers or machine operators when they show signs of fatigue.
+🎞️ Live Demo
 
----
+Note: Ensure these demo images or a GIF are uploaded to your repository or an image hosting service and update the URLs accordingly.
 
-## 🎞️ Live Demo / How it Looks
+✨ Key Features
 
-![image](https://github.com/user-attachments/assets/7483ab68-3757-4b58-8fee-b946f25daec7)
-![image](https://github.com/user-attachments/assets/f97d69e4-58da-41de-bc6d-03d59e960c9d)
-![image](https://github.com/user-attachments/assets/c3de3de2-a39d-48ca-8fc8-92d78799e2b2)
-![image](https://github.com/user-attachments/assets/3cc87102-e383-4252-9137-6fdf810ac3e3)
+Eye Closure Detection: Uses the Eye Aspect Ratio (EAR) algorithm to detect closed eyes.
+Yawn Detection: Calculates the Mouth Ratio (MR) to identify yawning.
+Real-time Alerts:
+Visual on-screen warnings.
+Optional audible alarms (Windows only, using winsound).
 
----
 
-## ✨ Key Features
+Smart Face Tracking: Re-acquires the face if it leaves the frame.
+Facial Landmark Visualization: Option to display 68 facial landmarks.
+Event Logging: Records drowsiness and yawning events to a log file (optional).
+Flexible Configuration:
+Adjustable EAR, yawn thresholds, and frame counts via command-line arguments.
+Runtime EAR threshold adjustment using hotkeys.
 
-*   **Eye Closure Detection:** Utilizes the Eye Aspect Ratio (EAR) algorithm to determine eye state.
-*   **Yawn Detection:** Calculates Mouth Ratio (MR) to identify yawning behavior.
-*   **Real-time Alerts:**
-    *   Visual on-screen warnings.
-    *   Audible alarms (optional, uses `winsound` for Windows).
-*   **Smart Face Tracking:** Attempts to re-acquire the face if it's lost from the frame.
-*   **Facial Landmark Visualization:** Option to display 68 facial landmarks.
-*   **Event Logging:** Saves drowsiness and yawning events to a log file (optional).
-*   **Flexible Configuration:**
-    *   Adjust thresholds (EAR, yawn) and consecutive frame counts via command-line arguments.
-    *   Runtime EAR threshold adjustment using hotkeys.
-*   **Informative Display:**
-    *   Displays current time and session elapsed time.
-    *   Shows current EAR and MR values.
-    *   Progress bar for eye closure warning.
-    *   Yawn counter.
-*   **Fullscreen Mode:** Easily toggleable with a hotkey.
-*   **Efficient Frame Processing:** Resizes frames for processing and display.
 
----
+Informative Display:
+Shows current time, session duration, EAR, MR, and yawn count.
+Includes a progress bar for eye closure warnings.
 
-## 🛠️ Tech Stack
 
-| Technology      | Description                                      |
-|-----------------|--------------------------------------------------|
-| **Python 3.x**  | Primary programming language.                    |
-| **OpenCV**      | Image and video processing library.              |
-| **Dlib**        | Face detection and facial landmark prediction.   |
-| **NumPy**       | Numerical computing, array manipulation.         |
-| **SciPy**       | Euclidean distance calculation.                  |
-| **argparse**    | Command-line argument parsing.                   |
-| **winsound**    | Plays sound alerts (Windows only).               |
-| **threading**   | Runs sound alerts asynchronously.                |
+Fullscreen Mode: Toggleable with a hotkey.
+Efficient Frame Processing: Resizes frames for optimal performance.
 
----
 
-## 📋 Prerequisites
+🛠️ Tech Stack
 
-Before you begin, ensure you have met the following requirements:
 
-1.  **Python:** Version 3.7 or higher.
-2.  **PIP:** Python's package installer.
-3.  **Webcam:** For video input.
-4.  **Dlib's pre-trained model `shape_predictor_68_face_landmarks.dat`.**
-    *   You can download it from the [official Dlib website](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2).
-    *   Extract the `.bz2` file after downloading to get the `.dat` file.
 
----
+Technology
+Description
 
-## ⚙️ Installation
 
-1.  **Clone the repository (or download the source code):**
-    ```bash
-    git clone https://github.com/your-username/your-repo-name.git # Replace with your repo URL
-    cd your-repo-name
-    ```
 
-2.  **Install the required Python libraries:**
-    ```bash
-    pip install opencv-python dlib numpy scipy
-    ```
-    *Note:* On some systems (especially Linux or macOS), installing Dlib might require `CMake` and a C++ compiler to be installed first. Refer to the Dlib documentation for details.
-    ```bash
-    # Example for installing CMake on Ubuntu
-    # sudo apt-get update
-    # sudo apt-get install build-essential cmake
-    ```
+Python 3.x
+Core programming language.
 
-3.  **Place the `shape_predictor_68_face_landmarks.dat` file:**
-    *   Copy the `shape_predictor_68_face_landmarks.dat` file (downloaded and extracted in the "Prerequisites" step) into the project's root directory (the same directory as your main Python script, e.g., `drowsiness_detector.py`).
 
----
+OpenCV
+Image and video processing.
 
-## 🚀 Usage
 
-Run the main Python script (e.g., `drowsiness_detector.py`) from your terminal:
+Dlib
+Face detection and facial landmark prediction.
 
-```bash
-python drowsiness_detector.py [OPTIONS]
-Use code with caution.
-Markdown
-Command-line Arguments:
-Argument	Default Value	Description
---shape-predictor	shape_predictor_68_face_landmarks.dat	Path to the Dlib facial landmark predictor file.
---ear-threshold	0.25	Eye Aspect Ratio (EAR) threshold for detecting closed eyes.
---ear-frames	20	Number of consecutive frames with EAR below threshold to trigger an alarm.
---yawn-threshold	0.6	Mouth Ratio (MR) threshold for detecting a yawn.
---camera	0	Camera index (default is 0 for the primary/built-in webcam).
---show-landmarks	False (not active)	Flag to display the 68 facial landmarks on the face.
---alarm	False (not active)	Flag to enable sound alarm on drowsiness detection.
---log	'' (empty string)	Path to the log file. If empty, logging is disabled.
---face-tracking	True (active)	Flag to enable continuous face tracking and re-detection if face is lost.
-Examples:
+
+NumPy
+Array manipulation and numerical computing.
+
+
+SciPy
+Euclidean distance calculations.
+
+
+argparse
+Command-line argument parsing.
+
+
+winsound
+Sound alerts (Windows only).
+
+
+threading
+Asynchronous sound alerts.
+
+
+
+📋 Prerequisites
+Ensure the following requirements are met before starting:
+
+Python: Version 3.7 or higher (download).
+PIP: Python's package installer (included with Python).
+Webcam: A working webcam for video input.
+Dlib's Pre-trained Model: Download shape_predictor_68_face_landmarks.dat from the official Dlib website.
+Extract the .bz2 file to obtain the .dat file.
+
+
+
+
+⚙️ Installation
+
+Clone the repository:
+git clone https://github.com/USERNAME/REPO_NAME.git
+cd REPO_NAME
+
+
+Install required Python libraries:The project includes a requirements.txt file listing all dependencies. Install them using:
+pip install -r requirements.txt
+
+Note: Installing Dlib on Linux or macOS may require CMake and a C++ compiler. For example, on Ubuntu:
+sudo apt-get update
+sudo apt-get install build-essential cmake
+
+On Windows, you may need Visual Studio with C++ build tools if Dlib installation fails.
+
+Verify the Dlib model file:
+
+Ensure the shape_predictor_68_face_landmarks.dat file is in the project's root directory (same folder as main.py). This file should already be included in the repository.
+
+
+
+
+🚀 Usage
+Run the main Python script (main.py) from your terminal:
+python main.py [OPTIONS]
+
+Command-line Arguments
+
+
+
+Argument
+Default Value
+Description
+
+
+
+--shape-predictor
+shape_predictor_68_face_landmarks.dat
+Path to Dlib's facial landmark predictor file.
+
+
+--ear-threshold
+0.25
+EAR threshold for detecting closed eyes.
+
+
+--ear-frames
+20
+Consecutive frames below EAR threshold to trigger alarm.
+
+
+--yawn-threshold
+0.6
+Mouth Ratio threshold for detecting a yawn.
+
+
+--camera
+0
+Camera index (0 for primary webcam).
+
+
+--show-landmarks
+False
+Display 68 facial landmarks.
+
+
+--alarm
+False
+Enable sound alarm for drowsiness detection.
+
+
+--log
+'' (empty)
+Path to log file (empty disables logging).
+
+
+--face-tracking
+True
+Enable face re-detection if lost.
+
+
+Examples
+
 Run with default settings:
-python drowsiness_detector.py
-Use code with caution.
-Bash
-Run with sound alarm, landmark display, and logging:
-python drowsiness_detector.py --alarm --show-landmarks --log events.log
-Use code with caution.
-Bash
-Run with a secondary camera and a custom EAR threshold:
-python drowsiness_detector.py --camera 1 --ear-threshold 0.22
-Use code with caution.
-Bash
-⌨️ Runtime Controls
-While the video window is active, you can use the following keys:
-Key	Action
-ESC	Exit the program.
-r	Reset eye closure counter (eye_counter) and yawn count (yawn_count).
-+	Increase EAR threshold (ear_threshold) by 0.01.
--	Decrease EAR threshold (ear_threshold) by 0.01 (minimum 0.01).
-f	Toggle fullscreen mode.
-🔬 How It Works (Overview)
-Initialization: Loads the facial landmark model, initializes the camera, and sets parameters.
-Frame Acquisition: Reads frames one by one from the webcam.
-Preprocessing: Converts the frame to grayscale and resizes it (if necessary).
-Face Detection: Uses dlib.get_frontal_face_detector() to find faces in the grayscale image.
-Facial Landmark Prediction: For each detected face, dlib.shape_predictor() localizes 68 specific points (eyes, nose, mouth, jawline).
-Calculate Eye Aspect Ratio (EAR):
-EAR is computed for both eyes based on Euclidean distances between vertical and horizontal eye landmarks.
+python main.py
+
+
+Enable sound alarm, landmarks, and logging:
+python main.py --alarm --show-landmarks --log events.log
+
+
+Use a secondary camera and a custom EAR threshold:
+python main.py --camera 1 --ear-threshold 0.22
+
+
+
+Runtime Controls
+While the video window is active, use these keys:
+
+
+
+Key
+Action
+
+
+
+ESC
+Exit the program.
+
+
+r
+Reset eye closure and yawn counters.
+
+
++
+Increase EAR threshold by 0.01.
+
+
+-
+Decrease EAR threshold by 0.01 (min 0.01).
+
+
+f
+Toggle fullscreen mode.
+
+
+
+🔬 How It Works
+
+Initialization: Loads the facial landmark model, initializes the webcam, and sets parameters.
+Frame Acquisition: Captures frames from the webcam.
+Preprocessing: Converts frames to grayscale and resizes them for efficiency.
+Face Detection: Uses dlib.get_frontal_face_detector() to locate faces.
+Facial Landmark Prediction: Applies dlib.shape_predictor() to identify 68 facial landmarks (eyes, nose, mouth, jawline).
+Eye Aspect Ratio (EAR):
+Calculates EAR for both eyes using Euclidean distances between landmarks.
 Formula: EAR = (A + B) / (2.0 * C) (see eye_aspect_ratio function).
-The average EAR of both eyes is used.
-If avg_ear < ear_threshold, the eye_counter increments.
-If eye_counter >= ear_consec_frames, a drowsiness alert is triggered.
-Calculate Mouth Ratio (MR):
-MR is calculated based on the vertical and horizontal distances of landmarks around the mouth.
+If average EAR < ear_threshold, increments eye_counter.
+If eye_counter ≥ ear_consec_frames, triggers a drowsiness alert.
+
+
+Mouth Ratio (MR):
+Computes MR based on vertical and horizontal mouth landmark distances.
 Formula: MR = Mouth_Height / Mouth_Width (see mouth_ratio function).
-If mr > yawn_threshold, a yawn is registered (yawn_count increments).
-Display Information: Draws contours around eyes and mouth, displays EAR, MR, time, alerts, and progress bars on the frame.
-Alerting: If drowsiness is detected, a prominent visual alert is displayed, and an audio alarm is played (if --alarm flag is enabled).
-Logging: If a log file path is provided, events like session start, yawns, and drowsiness alerts are recorded with timestamps.
+If MR > yawn_threshold, increments yawn_count.
+
+
+Display: Renders eye/mouth contours, EAR, MR, time, alerts, and progress bars.
+Alerting: Shows visual alerts and plays audio (if enabled) for drowsiness.
+Logging: Records session start, yawns, and alerts with timestamps (if enabled).
+
+
 📝 Logging
-If the --log <filename.txt> argument is provided when running the script, a log file will be created (or appended to if it already exists) with the following information:
-Timestamp of when the drowsiness detection session started.
-The threshold values (EAR, frames, yawn) used for the session.
-Timestamp and event for "Yawn detected - count X".
-Timestamp and event for "ALERT: Drowsiness detected".
-Example Log Snippet:
+When --log <filename.txt> is provided, the script logs:
+
+Session start time and threshold values.
+Yawn events (Yawn detected - count X).
+Drowsiness alerts (ALERT: Drowsiness detected).
+
+Example Log:
 ==================================================
 Drowsiness detection session started at 2023-10-27 10:00:00
 EAR Threshold: 0.25, Frames: 20, Yawn Threshold: 0.6
@@ -168,28 +255,35 @@ EAR Threshold: 0.25, Frames: 20, Yawn Threshold: 0.6
 [2023-10-27 10:05:15] Yawn detected - count 1
 [2023-10-27 10:10:30] ALERT: Drowsiness detected
 [2023-10-27 10:12:05] Yawn detected - count 2
-Use code with caution.
-💡 Potential Future Enhancements
-Cross-platform sound alerts (Linux/macOS using playsound or similar).
-Integrate head pose estimation to detect nodding.
-Improve accuracy in low-light conditions or when the user is wearing glasses.
-Develop a more user-friendly Graphical User Interface (GUI) using Tkinter, PyQt, or Kivy.
-Implement user configuration saving/loading.
-Analyze blink rate.
-🤝 Contributing
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
-Fork the Project
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-Push to the Branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-📜 License
-This project is licensed under the MIT License. See the LICENSE file (if available) for more details.
-Thank you for your interest in this project! We hope you find it useful.
-**Important Reminders:**
 
-1.  **`your-username/your-repo-name`:** Replace these placeholders with your actual GitHub username and repository name for the badges and links to work correctly.
-2.  **`drowsiness_detector.py`:** Replace this with the actual name of your main Python script if it's different.
-3.  **Live Demo (GIF/Image):** Create a short GIF or take a screenshot of your program in action and add it to the "Live Demo" section. Upload the image/GIF to a GitHub issue or an image hosting service and use its link.
-4.  **`LICENSE` File:** If you choose the MIT license, create a file named `LICENSE` in your project's root directory and paste the MIT license text into it. You can easily find MIT license templates online.
-5.  **Update as Needed:** Adjust any information (library versions, features, etc.) to accurately reflect your project.
+
+💡 Potential Future Enhancements
+
+Cross-platform audio alerts (e.g., using playsound for Linux/macOS).
+Head pose estimation to detect nodding.
+Improved accuracy in low-light or with glasses.
+User-friendly GUI (e.g., Tkinter, PyQt, or Kivy).
+Save/load user configurations.
+Blink rate analysis.
+
+
+🤝 Contributing
+Contributions are welcome! To contribute:
+
+Fork the repository.
+Create a feature branch (git checkout -b feature/AmazingFeature).
+Commit changes (git commit -m 'Add AmazingFeature').
+Push to the branch (git push origin feature/AmazingFeature).
+Open a Pull Request.
+
+
+📜 License
+This project is licensed under the MIT License. See the LICENSE file in the repository for details. If the file is missing, create one using the standard MIT License template.
+
+ℹ️ Notes
+
+Replace USERNAME/REPO_NAME with your GitHub username and repository name in badge URLs and clone commands.
+Test the script thoroughly to ensure compatibility with your system and webcam.
+For demo images/GIFs, upload them to your repository or an image hosting service and update the URLs in the "Live Demo" section.
+
+Thank you for exploring this project! We hope it proves useful and inspires further innovation.
