@@ -53,6 +53,7 @@ The console output shows a series of yawn detection events. Starting at 20:26:16
 
 ## Video project 
 
+### ---> Click to open
 [![Watch the video](https://img.youtube.com/vi/nR_KZxuanC4/hqdefault.jpg)](https://youtu.be/nR_KZxuanC4)
 
 ---
