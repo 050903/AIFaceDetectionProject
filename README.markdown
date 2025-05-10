@@ -12,35 +12,48 @@ A Python application leveraging OpenCV and Dlib for real-time monitoring of a us
 
 ## 🎞️ Live Demo
 
-![Start terminal](https://github.com/user-attachments/assets/45d21a7c-1e43-4e95-9832-eb2e39c392d4)
 
 ### Project Initialization (Terminal Output)
+
+![Start terminal](https://github.com/user-attachments/assets/45d21a7c-1e43-4e95-9832-eb2e39c392d4)
+
 This image shows the terminal when the program is first launched. It displays usage instructions including keyboard shortcuts: ESC to exit, 'r' to reset counters, '+/-' to adjust EAR threshold, 'f' to toggle fullscreen, and 'a' to toggle the sound/flash alarm. The initial sound/flash alarm state is OFF, and we can see system messages indicating the program is loading the facial landmark predictor, initializing the camera, and starting drowsiness detection.
+
+### No Face Detected State
 
 ![No face detected screen](https://github.com/user-attachments/assets/ba235fe3-98e7-42fe-a728-c8ce49e87681)
 
-### No Face Detected State
 This screen shows when no face is in the frame. The interface displays "NO FACE DETECTED" in red. The current time is 20:14:16 with an elapsed session time of 00:01:25.2. EAR and MAR values are "N/A" since there's no face to measure. PERCLOS shows 17.5%, indicating some eye closure was detected in the previous minute. The yawn counter remains at 0, and the alarm status is OFF.
+
+### Face Detection Searching Phase
 
 ![Searching face screen](https://github.com/user-attachments/assets/068f6250-c63e-4ef2-86e6-3d1e4231174b)
 
-### Face Detection Searching Phase
 The interface shows the Drowsiness Detection System in its searching phase, attempting to locate a face in the webcam feed. The top left shows the current time (20:13:35), and the top right shows elapsed session time (00:00:44.0). The system displays "SEARCHING..." in red, indicating it's trying to detect a face. EAR and MAR values show "N/A" since no face is fully detected yet. The PERCLOS value is 11.6% for the 60-second window. The yawn counter shows 0, and the alarm key status ('a') is OFF.
 
-![Yawn detected](https://github.com/user-attachments/assets/e66ffdd3-3fdf-4c55-a916-a2512cce1c49)
-
  ### Simultaneous Drowsiness and Yawn Detection
+ 
+ ![Yawn detected](https://github.com/user-attachments/assets/e66ffdd3-3fdf-4c55-a916-a2512cce1c49)
+
 This screenshot shows both a drowsiness alert and yawn detection occurring simultaneously. The current time is 20:16:13 with a session duration of 00:03:22.5. The EAR value is 0.19 (below the default threshold of 0.23), and the MAR value is 0.71 (above the yawn threshold of 0.6). PERCLOS is extremely high at 77.1%, indicating significant eye closure in the past minute. The system displays both "DROWSINESS ALERT!" in red and "YAWN DETECTED!" in orange. The face is highlighted with a green box, with eye contours (green) and mouth contour (blue) visible. The yawn counter shows 84, and the alarm is OFF.
+
+
+### Active Drowsiness Detection
 
 ![Drowsiness alert](https://github.com/user-attachments/assets/d8c6fe4a-5b1f-43eb-bdf5-48b884149b9c)
 
-### Active Drowsiness Detection
 The final image shows a clear drowsiness alert at 20:16:36. The EAR value is very low at 0.13, indicating significantly closed eyes. The MAR value is 0.04, showing a closed mouth. PERCLOS remains high at 73.8%. "DROWSINESS ALERT!" is prominently displayed in red. The face is again highlighted with a green box showing the facial landmarks, with nearly closed eyes (green contours) and closed mouth (blue contour). The yawn counter shows 86, indicating continued monitoring from the previous state.
+
+
+### Console Log Showing Yawn Detection Events
 
 ![Report event detected](https://github.com/user-attachments/assets/a8335235-49cb-4519-9699-c7b5a2babc2e)
 
-### Console Log Showing Yawn Detection Events
 The console output shows a series of yawn detection events. Starting at 20:26:16, the system detected 7 yawns over a short period, with MAR values ranging from 0.60 to 0.66. At 20:26:19, the runtime sound/flash alarm was toggled ON, and subsequent yawn detections (from number 5 onward) generated "ALERT" messages with "Runtime alarm active" notifications, indicating that both visual and sound alerts were triggered.
+
+## Video project 
+
+[![Watch the video](https://img.youtube.com/vi/nR_KZxuanC4/hqdefault.jpg)](https://youtu.be/nR_KZxuanC4)
 
 ---
 
