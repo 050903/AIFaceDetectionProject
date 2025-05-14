@@ -293,3 +293,10 @@ This project is licensed under the MIT License. See the LICENSE file in the repo
 - The winsound library for audio alerts is Windows-specific. For other operating systems, consider alternatives mentioned in "Potential Future Enhancements."
 
 Thank you for exploring this project!
+
+## 👨‍💻 Author
+Trần Thế Hảo
+
+# 🎓 Information Technology, University of Transport Ho Chi Minh City (UTH)
+
+![image](https://github.com/user-attachments/assets/c2488ba6-05d8-40dd-b8c6-ff3db7cf8cf5)
