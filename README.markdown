@@ -22,6 +22,8 @@ This image shows the terminal when the program is first launched. It displays us
 ### No Face Detected State
 
 ![No face detected screen](https://github.com/user-attachments/assets/ba235fe3-98e7-42fe-a728-c8ce49e87681)
+![image](https://github.com/user-attachments/assets/70f1137b-78e9-486b-8584-db04238e822c)
+
 
 This screen shows when no face is in the frame. The interface displays "NO FACE DETECTED" in red. The current time is 20:14:16 with an elapsed session time of 00:01:25.2. EAR and MAR values are "N/A" since there's no face to measure. PERCLOS shows 17.5%, indicating some eye closure was detected in the previous minute. The yawn counter remains at 0, and the alarm status is OFF.
 
