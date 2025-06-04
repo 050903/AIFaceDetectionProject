@@ -10,8 +10,9 @@ A Python application leveraging OpenCV and Dlib for real-time monitoring of a us
 
 ---
 
-## Diagram
+## Diagram working space
 
+![image](https://github.com/user-attachments/assets/178a0a3c-2913-404d-8ed4-cd09f4fd9d91)
 
 ---
 
