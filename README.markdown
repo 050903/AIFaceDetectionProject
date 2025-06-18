@@ -27,6 +27,18 @@ A Python application leveraging OpenCV and Dlib for real-time monitoring of a us
 ![image](https://github.com/user-attachments/assets/9b849713-e1bc-43bc-aa01-ed2234375b1d)
 
 
+---
+
+![image](https://github.com/user-attachments/assets/fdeb20d9-6c56-452d-b2a4-aceb27e49fe0)
+
+---
+
+![image](https://github.com/user-attachments/assets/4bf7738c-6cb3-421a-9221-6f82dab1f0d0)
+
+---
+
+![image](https://github.com/user-attachments/assets/1b0b2ed5-85b1-43ff-a949-7c95dbee0b8b)
+
 
 Drowsiness Detection System Overview
 This diagram illustrates the architecture and data flow of a real-time drowsiness detection system. The system processes video streams from a webcam to detect facial landmarks and assess a user's state of alertness, triggering alerts if drowsiness is detected.
